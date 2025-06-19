@@ -14,3 +14,5 @@ asciinema calc https://asciinema.org/a/u4s8UnlQViaqCT0eeDImIommg
 asciinema gcd https://asciinema.org/a/gUlYeAD4DSGTKVSKjiRTPk9nP
 
 asciinema progression https://asciinema.org/a/Pb4t4240ysPncVIqXNrJfBhWJ
+
+asciinema prime https://asciinema.org/a/kiQ6zHVYJFLPiJ55NOemxZLfV
