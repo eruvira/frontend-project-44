@@ -12,3 +12,5 @@ asciinema even https://asciinema.org/a/2Obr1uAxqCRgip2f8AtGbQ2XE
 asciinema calc https://asciinema.org/a/u4s8UnlQViaqCT0eeDImIommg
 
 asciinema gcd https://asciinema.org/a/gUlYeAD4DSGTKVSKjiRTPk9nP
+
+asciinema progression https://asciinema.org/a/Pb4t4240ysPncVIqXNrJfBhWJ
