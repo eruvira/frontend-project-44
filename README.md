@@ -7,4 +7,6 @@
 
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=eruvira_frontend-project-44)
 
-asciinema https://asciinema.org/a/2Obr1uAxqCRgip2f8AtGbQ2XE
+asciinema even https://asciinema.org/a/2Obr1uAxqCRgip2f8AtGbQ2XE
+
+asciinema calc https://asciinema.org/a/u4s8UnlQViaqCT0eeDImIommg
