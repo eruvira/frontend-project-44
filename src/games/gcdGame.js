@@ -1,6 +1,6 @@
-import gameEngine from "../index.js"
+import gameEngine from '../index.js'
 
-const description = "Find the greatest common divisor of given numbers."
+const description = 'Find the greatest common divisor of given numbers.'
 
 const getRandomInt = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min
@@ -12,7 +12,7 @@ const getGCD = (a, b) => {
     a = temp
   }
   return a
-};
+}
 
 const generateRound = () => {
   const a = getRandomInt(1, 100)
@@ -20,6 +20,6 @@ const generateRound = () => {
   const question = `${a} ${b}`
   const correctAnswer = getGCD(a, b).toString()
   return { question, correctAnswer }
-};
+}
 
 export default () => gameEngine(description, generateRound)

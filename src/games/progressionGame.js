@@ -1,6 +1,6 @@
-import gameEngine from "../index.js"
+import gameEngine from '../index.js'
 
-const description = "What number is missing in the progression?"
+const description = 'What number is missing in the progression?'
 
 const getRandomInt = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min
@@ -19,9 +19,9 @@ const generateRound = () => {
   const correctAnswer = progression[hiddenIndex].toString()
 
   const question = progression
-    .map((num, i) => (i === hiddenIndex ? ".." : num))
-    .join(" ")
+    .map((num, i) => (i === hiddenIndex ? '..' : num))
+    .join(' ')
   return { question, correctAnswer }
-};
+}
 
 export default () => gameEngine(description, generateRound)

@@ -23,6 +23,6 @@ const generateRound = () => {
   const correctAnswer = calculate(a, b, operator).toString()
 
   return { question, correctAnswer }
-};
+}
 
 export default () => gameEngine(description, generateRound)
