@@ -1,9 +1,7 @@
 import gameEngine from '../index.js'
+import getRandomInt from '../utility/generateRandomInt.js'
 
 const description = 'What number is missing in the progression?'
-
-const getRandomInt = (min, max) =>
-  Math.floor(Math.random() * (max - min + 1)) + min
 
 const generateProgression = (start, step, length) => {
   return Array.from({ length }, (_, i) => start + i * step)

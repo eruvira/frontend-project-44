@@ -1,8 +1,7 @@
 import gameEngine from '../index.js'
+import getRandomInt from '../utility/generateRandomInt.js'
 
 const operators = ['+', '-', '*']
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
 const calculate = (a, b, operator) => {
   switch (operator) {

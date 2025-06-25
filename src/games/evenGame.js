@@ -1,6 +1,5 @@
 import gameEngine from '../index.js'
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
+import getRandomInt from '../utility/generateRandomInt.js'
 
 const isEven = num => num % 2 === 0
 
